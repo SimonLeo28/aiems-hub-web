@@ -8,6 +8,9 @@ const backend = import.meta.env.VITE_BACKEND_URL
 
 const BlogDisplay = () => {
 
+  console.log(backend);
+  
+
     const [data, setData] = useState([])
   
     const [isLoading, setIsLoading] = useState(true)
